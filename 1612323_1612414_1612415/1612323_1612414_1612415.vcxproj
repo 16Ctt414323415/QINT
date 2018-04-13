@@ -115,6 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\BitOperator.cpp" />
+    <ClCompile Include="..\..\QInt.cpp" />
+    <ClCompile Include="..\..\Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\FIX_BUG.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\QInt.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

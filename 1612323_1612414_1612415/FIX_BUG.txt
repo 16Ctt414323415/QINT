@@ -1,0 +1,8 @@
+﻿************BUG *****************
+(nghi)
+-hàm getBit do lưu int = (long long) nên bị thiếu giá trị
+-khi thao tác với 1 của Long Long phải dùng 1ULL
+-hàm cộng dùng int làm biến nhớ-> bool
+if(carry ==0)3:11 PM 4/13/2018
+cộng từ sau ra trước not trc ra sau
+-hàm bù 2 thì đảo bit chứ ko cần cộng thao tác nhiều hơn
