@@ -1,7 +1,7 @@
 #include"QInt.h"
 bool QInt::getBit(int i)
 {
-	int INDEX = i % 64;
+	int INDEX = 63 - i % 64;
 	long long x = arrayBits[i / 64];
 	return (1ULL << INDEX & x) >> INDEX;
 }
@@ -15,7 +15,7 @@ void QInt::setBit(long long bit, int i)
 
 void QInt::turnOn(int i)
 {
-	arrayBits[i / 64] |= 1ULL << (i % 64);//a |= (1 << index)
+	arrayBits[i / 64] |= 1ULL << (i % 64);
 }
 
 void QInt::turnOff(int i)

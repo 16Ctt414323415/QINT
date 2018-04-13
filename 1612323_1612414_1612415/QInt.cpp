@@ -199,3 +199,12 @@ QInt QInt::operator+(QInt &a)
 	}
 	return obj;
 }
+
+QINT::QINT()
+{
+}
+
+
+QINT::~QINT()
+{
+}

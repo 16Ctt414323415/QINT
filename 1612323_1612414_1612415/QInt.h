@@ -62,3 +62,10 @@ public:
 
 string BinStringToBHexString(string bin);
 string HexStringToBinString(string hex);
+
+class QINT
+{
+public:
+	QINT();
+	~QINT();
+};

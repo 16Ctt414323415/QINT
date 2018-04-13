@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QINT.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BitOperator.cpp" />
+    <ClCompile Include="QINT.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{0D125027-ABAD-4111-86E4-08FBC59D8C2E}</ProjectGuid>
@@ -114,17 +122,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\BitOperator.cpp" />
-    <ClCompile Include="..\..\QInt.cpp" />
-    <ClCompile Include="..\..\Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\..\FIX_BUG.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\QInt.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
